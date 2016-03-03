@@ -1,0 +1,2 @@
+#parse("/common/menu.macro.vm")
+#parse("/common/common.macro.vm")

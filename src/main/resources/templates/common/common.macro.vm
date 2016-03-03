@@ -1,0 +1,11 @@
+#*
+ common script
+ *#
+#macro(includeCommonScript)
+
+
+<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+    <script src="/dep/materialize/js/materialize.js"></script>
+<script type="text/javascript" src="/dep/materialize/js/init.js"></script>
+
+#end

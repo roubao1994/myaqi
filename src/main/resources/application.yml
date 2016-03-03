@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/aqi?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: ""
+    driver-class-name: com.mysql.jdbc.Driver
+
+  velocity:
+    cache: false  #是否缓存模板
+    resource-loader-path: classpath:templates #模板位置
+    toolbox-config-location: toolbox.xml #toobox位置
+    date-tool-attribute: date #日期函数名称
+    number-tool-attribute: number #数字函数名称
+    content-type: text/html;charset=UTF-8
+    expose-spring-macro-helpers: true #是否开放对宏的支持
+    expose-request-attributes: true #是否开放request属性
+    request-context-attribute: rc #request属性引用名称
+
+
+mybatis:
+  config: classpath:conf/mybatis-config.xml
+
+
