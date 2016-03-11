@@ -6,10 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
+
 
 p {
   line-height: 2rem;
@@ -25,6 +22,8 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+
+
   .parallax-container .section {
     width: 100%;
   }

@@ -1,14 +1,16 @@
 /**
  * Created by lulei on 16/3/3.
  */
+
 seajs.config({
-    base: 'js/modules',
+    base: '/js/sea-modules',
     alias: {
-        'jquery': '/dep/jquery/jquery-1.12.1.js',
-        'mapbox':'/dep/mapbox/mapbox.js',
+        '$': '/dep/jquery/jquery-1.11.3.min.js',
+        'jquery': '/dep/jquery/jquery-1.11.3.min.js',
+        'mapbox':'/dep/mapbox/mapbox',
         'materialize':  '/dep/materialize/js/materialize.min.js',
-        'init': '/dep/materialize/js/init.js',
-        'initialize': '/js/init.js'
+        'init': '/js/sea-modules/init.js'
     }
 });
+
 

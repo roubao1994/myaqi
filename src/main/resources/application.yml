@@ -17,6 +17,8 @@ spring:
     request-context-attribute: rc #request属性引用名称
 
 
+
+
 mybatis:
   config: classpath:conf/mybatis-config.xml
 

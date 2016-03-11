@@ -4,8 +4,7 @@
  */
 
 define(function(require, exports, module) {
-    var $ = require('jquery');
+    var jquery = require('jquery');
     var mapbox = require('mapbox');
     var materialize = require('materialize');
-    var init = require('init');
 });
